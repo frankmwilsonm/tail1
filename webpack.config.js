@@ -176,7 +176,7 @@ module.exports = (env) => {
       openPage: "index.html",
       watchContentBase: true,
       port: 4000,
-      host: "0.0.0.0",
+      host: "localhost",
     },
     plugins: !devMode ? [new CleanWebpackPlugin(), ...getTemplates(htmlFiles, env)] : getTemplates(htmlFiles),
   };
