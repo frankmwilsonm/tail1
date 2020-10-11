@@ -23,24 +23,29 @@ module.exports = {
   },
   theme: {
     /* This will overwrite all "colors" configuration to only 
-            render default green and white
-        
+            render default green and white 
+        */
     colors: {
       indigo: {
         lighter: '#b3bcf5',
         default: '#5c6ac4',
         dark: '#202e78',
+        amarillo: '#f1c40f',
+        white: '#fff',
       },
       blue: '#007ace',
       red: '#de3618',
-    },*/
+    },
+
     extend: {
+      
+
       /** This will extend the current "spacing" configuration
-            *  and add a -7 to all spacing options     
+            *  and add a -7 to all spacing options*/     
             spacing: {
                 '7': '1.75rem',
             },
-             */
+             
     },
   },
 };
